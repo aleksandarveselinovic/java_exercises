@@ -11,11 +11,10 @@ package arrayavg;
  * @author aveselinovic
  */
 public class ArrayAvg {
-
+    
     /**
      * @param args the command line arguments
      */
-    
       public static void main(String[] args) {
         // TODO code application logic here
         
@@ -26,7 +25,7 @@ public class ArrayAvg {
         
         for (i = 0 ; i < numbersArrayLength; i++){
             
-            result+=numbers[i]/5;
+            result+=numbers[i]/ numbersArrayLength;
         }
         System.out.println("Array length is: " + numbersArrayLength);
         System.out.println("Average value of the array's elements is: " + result);
